@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Webpage</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+
 <body>
     <div class="nav-bar">
+        <!-- toggle buttons for mobile -->
+
+        <div class="top-corner">
+            <div class="open toggle"></div>
+            <div class="close hide toggle"></div>
+        </div>
+
+        <!--    end   -->
         <div class="logo">Snapshot</div>
-        <ul class="nav-links">
+        <ul class="nav-links nav-links-toggle" id="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+
     </div>
 
     <!-- Hero section -->
@@ -92,7 +101,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, sapiente. Nuleos rem!</p>
         </div>
         <div class="footer-input">
-            <input type="text" placeholder="Name"> 
+            <input type="text" placeholder="Name">
             <input type="email" placeholder="Email">
         </div>
         <div class="footer-textarea">
@@ -103,5 +112,6 @@
         </div>
         <h6>Copyright &copy; 2021 Zuri Training.</h6>
     </div>
+  <script src="index.js"></script>
 </body>
 </html>
